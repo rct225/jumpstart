@@ -31,6 +31,7 @@ img {
 .jumbotron-bike {
   background-image: url("../images/jumbotron-bike.jpg");
   text-align: center;
+  padding: 11.85rem 0;
 }
 
 .jumbotron .h1, .jumbotron h1 {
@@ -39,6 +40,19 @@ img {
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   /*text-align: center;*/
+}
+
+
+@media only screen and (max-width: 767px) {
+  .jumbotron h1 {
+    font-size: 5.7rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .jumbotron h1 {
+    font-size: 4rem;
+  }
 }
 
 .jumbotron p {
