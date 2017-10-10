@@ -34,6 +34,24 @@ img {
   padding: 11.85rem 0;
 }
 
+.jumbotron-beer {
+  background-image: url("../images/jumbotron-beer.jpg");
+  text-align: center;
+  padding: 11.85rem 0;
+}
+
+.jumbotron-flowers {
+  background-image: url("../images/jumbotron-flowers.jpg");
+  text-align: center;
+  padding: 11.85rem 0;
+}
+
+.jumbotron-duffel {
+  background-image: url("../images/jumbotron-duffel.jpg");
+  text-align: center;
+  padding: 11.85rem 0;
+}
+
 .jumbotron .h1, .jumbotron h1 {
   font-family: "Monoton", cursive;
   font-size: 7.1rem;
